@@ -1,4 +1,5 @@
-#Cloud-native toolchain for one microservice (using GHE)
+#Cloud-native toolchain for one microservice 
+##GHE variant
 
 Get started with this sample, which is a catalog api microservices for an online store application. The sample includes a DevOps toolchain that is preconfigured for continuous delivery, source control, blue-green deployment, functional testing, issue tracking, online editing, and messaging. 
 To get started, press this button.
