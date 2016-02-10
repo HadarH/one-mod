@@ -8,7 +8,7 @@ required:
 
 # Github repos
 catalog-api-repo:
-  service_id: githubpublic
+  service_id: github
   parameters:
     repo_name: "{{github.parameters.catalog-api-repo_name}}"
     repo_url: "{{github.parameters.catalog-api-repo_url}}"
@@ -76,7 +76,7 @@ deploy:
 #Github
 github:
   schema: github.json
-  service-category: githubpublic
+  service-category: github
   parameters:
     catalog-api-repo_name: "catalog-api-{{name}}"
     catalog-api-repo_url: https://github.com/skaegi/Microservices_CatalogAPI
